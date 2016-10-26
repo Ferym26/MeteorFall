@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>MeteorFall</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+
+		<h1>MeteorFall</h1>
+
+		<div class="ui">
+
+			<input class="enterName" type="text" placeholder="Введите имя">
+
+			<p class="username">%UserName%</p>
+			<p class="lvl">Уровень: <span class="lvlcounter">1</span></p>
+			<p class="points">Points: <span class="pcounter">0</span></p>
+
+			<div class="panel">
+
+				<div class="ships">
+					<span class="ship"></span>
+					<span class="ship"></span>
+					<span class="ship"></span>
+				</div>
+
+				<div class="bombs">
+					<span class="bomb"></span>
+					<span class="bomb"></span>
+					<span class="bomb"></span>
+					<span class="bomb"></span>
+					<span class="bomb"></span>
+				</div>
+
+				<div class="modifiers">
+					<span class="modifier immortal"></span>
+					<span class="modifier x2"></span>
+					<span class="modifier slowmeteor"></span>
+				</div>
+			</div>
+
+			<div class="btn-box">
+				<button class="btn btn-start" id="start">Start</button>
+				<button class="btn btn-stop" id="stop">Pause</button>
+			</div>
+
+		</div>
+
+		<canvas id="map"></canvas>
+		<canvas id="player"></canvas>
+		<canvas id="enemy"></canvas>
+
+
+	</div>
+
+
+
+
+
+	<script src="https://www.gstatic.com/firebasejs/3.5.1/firebase.js"></script>
+
+	<script async src="js/app.js"></script>
+	<script async src="js/game.js"></script>
+
+</body>
+</html>

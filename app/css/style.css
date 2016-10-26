@@ -1,0 +1,187 @@
+*::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+
+*:-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+
+*::-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+
+*:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+    color: #666;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+    color: #666;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url("../img/cosmos1.jpg") no-repeat 50% 50%;
+    background-size: cover;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+h1 {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-300px, 0);
+	font-size: 44px;
+    font-weight: normal;
+	text-align: center;
+	color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+#map,
+#player,
+#enemy {
+    position: absolute;
+    display: block;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+}
+
+.ui {
+    position: absolute;
+    width: 180px;
+    height: 400px;
+    top: 70px;
+    left: 50%;
+    transform: translate(-490px, 0);
+    background: lavenderblush;
+
+    text-align: center;
+}
+
+.enterName {
+    display: block;
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 0;
+
+    font-size: 18px;
+    text-align: center;
+
+    background: #fff;
+    border: none;
+    outline: none;
+}
+
+.panel {
+    position: absolute;
+    width: 90%;
+    height: 95px;
+    left: 50%;
+    bottom: 50px;
+    transform: translate(-50%, 0);
+    padding-top: 10px;
+    background: #fff;
+}
+
+.ships {
+    height: 35px;
+}
+
+.ships .ship {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    background: skyblue;
+}
+
+.bombs {
+
+}
+
+.bombs .bomb {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 5px;
+    background: crimson;
+}
+
+.modifiers {
+
+}
+
+.modifiers .modifier {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    background: mediumseagreen;
+}
+
+.username {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+.btn-box {
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.btn-box .btn {
+    display: inline-block;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.btn-start {
+    background: yellowgreen;
+}
+
+.btn-stop {
+    background: salmon;
+}
+
+
+
+
+
+
